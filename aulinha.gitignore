@@ -1,0 +1,276 @@
+Criado por https://www.toptal.com/developers/gitignore/api/visualstudiocode, reactnativo
+Editar em https://www.toptal.com/developers/gitignore? templates-visualstudiocode, reactnative
+
+? ReactNative (em inglês) ?
+React Native Stack Base (em inglês)
+
+.expo (tradução)
+__ gerado___
+
+? ReactNative.Portaco do presente ?
+? Logs (em inglês)
+Logs
+?.log
+npm-debug.log
+yarn-debug.log (em inglês)
+yarn-error.log
+lerna-debug.log
+.pnpm-debug.log
+
+Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+O relatório.[ 0-9] ? (em inglês). 0-9] ? (em inglês). 0-9] ? (em inglês). 0-9] ?.json (em inglês)
+
+? Dados de tempo de execução
+pidsTradução
+? .pid
+? .seed
+?.pid.lock
+
+Diretório para libs instrumentados gerados pela jscoverage/JSCover
+lib-covTradução
+
+Diretório de cobertura usado por ferramentas como istanbul
+Cobertura
+?.lcovTradução
+
+? Cobertura do teste de nic
+.nyc_outputTradução
+
+Armazenamento intermediário da Grunt (https://gruntjs.com/criagem-pluginsTMstoring-sak-files)
+.gruntTradução
+
+Diretório de dependência de Bower (https://bower.io/)
+bower_components (em inglês)
+
+- configuração do node-waf
+.lock-wscriptTradução
+
+Compilação de addons binários (https://nodejs.org/api/addons.html)
+build/Release (em inglês)
+
+? Diretórios de dependência
+node_modules/ Comentários
+jspm_pacoagens/
+
+Diretório de dependência Snowpack (https://snowpack.dev/)
+web_modules/ Comentários
+
+? Cache TypeScript
+?.tsbuildinfo
+
+Diretório de cache npm opcional
+.npm
+
+- Opcional eslint cache
+.eslintcacheTradução
+
+- Cache de stylelint opcional
+.stylelintcacheTradução
+
+- Cache de micropau
+.rpt2_cache/ jogo:
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+História opcional da REPL
+.node_repl_history (em inglês)
+
+- Saída de 'npm pack'
+?.tgz (em inglês)
+
+- Yarn Integrity arquivo
+.yarn-integridade
+
+- dotenv arquivos variáveis de ambiente
+.env (em inglês)
+.env.desenvolvimento.local
+.env.test.localTradução
+.env.production.local (em inglês).
+.env.local (em inglês)
+
+cache parcel-bundler (https://parceljs.org/)
+.cache em Inglês
+.parcel-cache
+
+- Next.js build output
+.next
+Para fora.
+
+Nuxt.js build / gerar saída
+.nuxt (em inglês)
+Dist (trata)
+
+- Arquivos Gatsby
+.cache / tradução
+Comentário na linha pública se o seu projeto usa Gatsby e não Next.js
+https://nextjs.org/blog/next-9-1-public-directory-support
+? público
+
+- vuepress build output
+.vuepress/dist em Inglês
+
+diretório vuepress v2.x temp e cache
+.temp (em inglês)
+
+Docusaurus cache e arquivos gerados
+.docusaurusTradução
+
+- Diretórios sem servidor
+. sem reservas /
+
+? FuseBox cache em Inglês
+.fusebox/
+
+- DynamoDB Arquivos locais
+.dynamodb / jogo:
+
+Arquivo de porta TernJS
+.tern-port
+
+Armazena versões VSCode usadas para testar extensões VSCode
+.vscode-testTradução
+
+? fio v2
+.yarn / cacheTradução
+.yarn / unplugged
+.yarn/build-state.yml (em inglês)
+.yarn/install-state.gz
+.pnp. ) ) Embalhação (em, ínus
+
+: ReactNative.macOS Stack ? (em inglês)
+? Geral
+- A . (í a questão: es. , , DS_StoreTradução
+- A . (í a questão: es. , , AppleDuplo em Inglês
+- A . (í a questão: es. , , LSOverida em Inglês
+
+- Icon deve terminar com dois ?r
+Icon em Inglês
+
+
+? Miniaturas
+- A . (í a questão: es. , , _
+
+Arquivos que podem aparecer na raiz de um volume
+- A . (í a questão: es. , , DocumentRevisions-V100 (em inglês)
+.foved
+- A . (í a questão: es. , , Spotlight-V100 (em inglês)
+- A . (í a questão: es. , , Itens temporários
+- A . (í a questão: es. , , TrashesTrashTradução
+- A . (í a questão: es. , , Outros produtos VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+Diretórios potencialmente criados em ação remota da AFP
+- A . (í a questão: es. , , AppleDB em Inglês
+- A . (í a questão: es. , , AppleDesktop jogo:
+Pasta de lixo de rede
+Itens temporários
+.Saque de disco
+
+? ReactNative.Android Stack ?
+? Arquivos Gradle
+.gradle / Dublado / Inglês
+construção /
+
+Arquivo de configuração local (sdk path, etc)
+local.propriedades
+
+Arquivos de Log/OS
+
+Arquivos e pastas gerados pelo Android Studio
+capturas /
+.externalNativeBuild/
+.cxx / (em inglês)
+?.apk
+output.json (em inglês)
+
+? IntelliJ (em inglês)
+? .iml
+.idea/ (tradução)
+misc.xml (em inglês)
+deploymentTargetDropDown.xml
+render.experimental.xml (em inglês)
+
+Arquivos da Keystore
+?.jks (em inglês)
+?.keystore (em inglês)
+
+] Serviços do Google (e.g. APIs ou Firebase)
+google-services.json (em inglês)
+
+) Android Profiling em Inglês
+? .hprof
+
+? ReactNative.Xcode Stack ?
+? Configurações do usuário
+Outros produtos xcuserdata/
+
+Xcode 8 e anterior
+?.xcscmblueprint (em inglês)
+?.xccheckout (em inglês)
+
+: ReactNative.Buck Stack ? (em inglês)
+buck-out / jogo:
+.buckconfig.local (em inglês)
+.buckd / Inglês
+.buckversionTradução
+.fakebuckversionTradução
+
+: ReactNative.Gradle Stack ? (em inglês)
+.gradleTradução
+?/ build/Tradução
+! - A este - Alusiva, alá, apresente src//construção/
+
+Ignore Gradle GUI config
+gradle-app.settingTradução
+
+Evite ignorar o arquivo do frasco do wrapper do Gradle (arquivos.jar geralmente são ignorados)
+! - A este - Alusiva, alá, apresente gradle-wrapper.jar
+
+Evite ignorar as propriedades do wrappper Gradle
+! - A este - Alusiva, alá, apresente gradle-wrapper.propriedades
+
+- Cache do projeto
+.gradletasknamecacheTradução
+
+Arquivos gerados pelo plugin Eclipse Gradle
+? Eclipse Core em Inglês
+.projecto
+JDT-especific (Eclipse Java Development Tools)
+. classpathTradução
+
+? ReactNative.Linux Stack ? (em inglês)
+) ) Embalhação (em, ínus
+
+arquivos temporários que podem ser criados se um processo ainda tiver um identificador aberto de um arquivo excluído
+.fuse_hidden
+
+- Preferências do diretório KDE
+.directory (em inglês)
+
+Pasta de lixo Linux que pode aparecer em qualquer partição ou disco
+- A . (í a questão: es. , , Lixo-- ?
+
+Arquivos .nfs são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs
+
+? VisualStudioCode ?
+.vscode/
+!.vscode/settings.json
+!.vscode/tarefas.json
+!.vscode/launch.jsonTradução
+!.vscode/extensions.jsonTradução
+!.vscode/.code-snippets
+
+Histórico local para o Visual Studio Code
+.history / (em inglês)
+
+- Built Visual Studio Code Extensions (em inglês)
+?.vsix (em inglês)
+
+? VisualStudioCode Patch ?
+Ignore todo o histórico local de arquivos
+.history (em inglês)
+.ionide (em inglês)
+
+Fim de https://www.toptal.com/developers/gitignore/api/visualstudiocode, reactnativo
