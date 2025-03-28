@@ -42,11 +42,11 @@ const listaFilmes = [
   "capa": "https://cdn2.storyasset.link/d8WZVHTdIZfNOvtymqojZtO3g0j1/Peaky-Blinders-Sangue-Apostas-e-Navalhas-6a-Temporada-Completa-2022-Google-Drive-e-Torrent-Dublada-ms-ccqsgfqtiv.jpg"
   },
   {
-  "nome": "Desperate Housewives",
-  "ano": 2004,
-  "diretor": "Marc Cherry",
-  "temporadas": 8,
-  "capa": "https://i.pinimg.com/236x/15/cc/88/15cc8856eb29f92689dd1268077db45e.jpg"
+  "nome": "Ozark",
+  "ano": 2017,
+  "diretor": "Bill Dubuque / Mark Williams",
+  "temporadas": 4,
+  "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4k-mXsGALAxVDFYeHxoqfJXCqanEcK69lA&s"
   },
   {
   "nome": "Sons of Anarchy",
