@@ -1,113 +1,86 @@
-import React from "react";
-import { StatusBar } from "expo-status-bar";
-import {
-Button,
-Image,
-StyleSheet,
-Text,
-View,
-ScrollView,
-} from "react-native";
+import React from 'react';
+import { ScrollView, Text, StyleSheet } from 'react-native';
+import Filme from './componentes/Filmes';
+import Serie from './componentes/Serie';
+
+const listaFilmes = [
+  {
+  "nome": "Os bons companheiros",
+  "ano": 1990,
+  "diretor": "Martin Scorsese",
+  "tipo": "Policial, Drama",
+  "capa": "https://ichef.bbci.co.uk/ace/ws/624/amz/worldservice/live/assets/images/2015/04/23/150423221239_goodfellas_624x351_alamy.jpg.webp"
+  },
+  {
+  "nome": "Fogo contra fogo",
+  "ano": 1996,
+  "diretor": "Michael Mann",
+  "tipo": "Policial, Drama",
+  "capa": "https://m.media-amazon.com/images/M/MV5BOGQ1OWZmOTgtM2YxZS00ZWI3LWFkMWMtYjA0NWE5NjgwNzI4XkEyXkFqcGc@._V1_QL75_UY281_CR0,0,190,281_.jpg"
+  },
+  {
+  "nome": "Casino",
+  "ano": 1995,
+  "diretor": "Martin Scorsese",
+  "tipo": "Crime/Thriller",
+  "capa": "https://upload.wikimedia.org/wikipedia/pt/a/a0/Casino_1995.jpg"
+  },
+  {
+  "nome": "O Irlandês",
+  "ano": 2019,
+  "diretor": "Martin Scorsese",
+  "tipo": "Crime",
+  "capa": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/da/The_Irishman_p%C3%B4ster.png/250px-The_Irishman_p%C3%B4ster.png"
+  }];
+  
+  const listaSeries = [
+  {
+  "nome": "Peaky Blinders",
+  "ano": 2013,
+  "diretor": "Steven Knight",
+  "temporadas": 6,
+  "capa": "https://cdn2.storyasset.link/d8WZVHTdIZfNOvtymqojZtO3g0j1/Peaky-Blinders-Sangue-Apostas-e-Navalhas-6a-Temporada-Completa-2022-Google-Drive-e-Torrent-Dublada-ms-ccqsgfqtiv.jpg"
+  },
+  {
+  "nome": "Desperate Housewives",
+  "ano": 2004,
+  "diretor": "Marc Cherry",
+  "temporadas": 8,
+  "capa": "https://i.pinimg.com/236x/15/cc/88/15cc8856eb29f92689dd1268077db45e.jpg"
+  },
+  {
+  "nome": "Sons of Anarchy",
+  "ano": 2008,
+  "diretor": "Kurt Sutter",
+  "temporadas": 7,
+  "capa": "https://i.pinimg.com/474x/79/2e/1e/792e1e398b6349dd3713eb74a5cf2bc2.jpg"
+  }
+  ];
 
 export default function App() {
-  function alerta() {
-    alert("Gol do Cristiano Ronaldo");
-  }
-  
   return (
-  <ScrollView> 
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
+      <Text style={styles.header}>Filmes</Text>
+      {listaFilmes.map((filme, index) => (
+        <Filme key={index} {...filme} />
+      ))}
 
-      <Text style={styles.nomeGrande}> Cristiano Ronaldo</Text>
-      <Text> Nome Completo: Cristiano Ronaldo dos Santos Aveiro </Text>
-      <Text> Data de Nascimento: 5 de fevereiro de 1985 </Text>
-      <Text> Local de Nascimento: Funchal, Madeira, Portugal </Text>
-      <Text> Altura: 1,87 m </Text>
-      <Text> Posição: Atacante (ponta, centroavante ou atacante) </Text>
-      <Image
-      source={{
-        uri:'https://imagens.ebc.com.br/-KCmN-gjVdV4h1YJZRc0VNmiGDA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2022-11-04t160557z_962066766_rc2wpw9rdjh5_rtrmadp_3_soccer-worldcup-por-ronaldo.jpg?itok=UDYW6PfQ'
-      }}
-      
-      style = {{
-        height:200,
-        widht:200,
-        borderRadius: 10,
-        marginVertical: 20
-      }}
-      />
-      
-      <Image
-      source={{
-        uri:'https://img2.rtve.es/i/?w=1600&i=1335994068204.jpg'
-      }}
-      
-      style = {{
-        height:400,
-        widht:200,
-        borderRadius: 10,
-        marginVertical: 20
-      }}
-      />
-         <Image
-      source={{
-        uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJt8fCOilDm0h4nKEkYO8d6N673aXYOeaqQ&s'
-      }}
-      
-      style = {{
-        height:400,
-        widht:200,
-        borderRadius: 10,
-        marginVertical: 20
-      }}
-      />
-         <Image
-      source={{
-        uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuFNSHg1O3J7uN7fUhrDVYSN7AMVDIp0Yr9ZQLxv4LKhQc7Xn1oaTkVDa6yTxawPSVEok&usqp=CAU'
-      }}
-      
-      style = {{
-        height:400,
-        widht:200,
-        borderRadius: 10,
-        marginVertical: 20
-      }}
-      />
-
-    <Image
-      source={{
-        uri:'https://forbes.com.br/wp-content/uploads/2024/09/Life_O-nome-da-marca-faz-referencia-aos-777-gols-oficiais-alcancados-pelo-jogador-em-2021.jpg'
-      }}
-      
-      style = {{
-        height:400,
-        widht:200,
-        borderRadius: 10,
-        marginVertical: 20
-      }}
-      />
-
-        <View style={styles.botaoContainer}>
-          <Button title="Botão" onPress={alerta} color="#1E90FF" />
-        </View>
-
-      <StatusBar style="auto" />
-    </View>
-  </ScrollView>
+      <Text style={styles.header}>Séries</Text>
+      {listaSeries.map((serie, index) => (
+        <Serie key={index} {...serie} />
+      ))}
+    </ScrollView>
   );
-
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#EAD196',
-    alignItems: 'left',
-    justifyContent: 'center',
+    padding: 10,
   },
-  nomeGrande:{
-    fontSize: 50
-  }, 
-  
- 
+  header: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginVertical: 10,
+  },
 });
